@@ -4,42 +4,35 @@ html, body {
 	padding: 0;
 	margin: 0;
 	border: 0;
-	background-color: teal;
 }
-.left {
-	width: 33%;
+.flex-row {
 	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.flex-column {
+	position: relative;
+
+	flex-grow: 1;
+}
+.blue {
 	background-color: blue;
-	float: left;
-	padding: 0;
-	margin: 0;
-	border: 0;
+	color: blue;
 }
-.center {
-	display: inline-block;
-	width: 33%;
-	height: 100%;
+.teal {
 	background-color: teal;
-	margin: 0;
-	padding: 0;
-	border: 0;
+	color: teal;
 }
-.right {
-	width: 33.7%;
-	height: 100%;
+.green {
 	background-color: green;
-	display: inline-block;
-	padding: 0;
-	margin: 0;
-	border: 0;
+	color: green;
 }
 .redBox {
 	position: absolute;
 	bottom: 0px;
-	width: 100%;
+	left: 0px;
+	right: 0px;
 	height: 150px;
 	background-color: red;
-	padding: 0;
-	margin: 0;
-	border: 0;
+	color: red;
 }
