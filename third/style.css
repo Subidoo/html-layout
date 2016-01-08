@@ -6,17 +6,16 @@ html body {
 }
 .whitespace {
 	width: 750px%;
-	height: 325px;
+	height: 260px;
 	background-color: white;
 	text-align: justify;
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-left: 100px;
 	padding-right: 100px;
 	margin: 0px;
 	content: 50pc;
 	font-size: 200%;
 	color: gray;
-	border: solid 1px red;
 }
 .flex-column {
 	height: 500px;
