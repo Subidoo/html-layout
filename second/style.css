@@ -3,23 +3,43 @@ html, body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
+	border: 0;
+	background-color: teal;
 }
 .left {
 	width: 33%;
 	height: 100%;
 	background-color: blue;
 	float: left;
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
 .center {
+	display: inline-block;
 	width: 33%;
 	height: 100%;
 	background-color: teal;
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
+	border: 0;
 }
 .right {
-	width: 33%;
+	width: 33.7%;
 	height: 100%;
 	background-color: green;
-	float: right;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.redBox {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 150px;
+	background-color: red;
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
