@@ -5,13 +5,22 @@ html body {
 	margin: 0;
 }
 .whitespace {
-	width: 100%;
+	width: 750px%;
 	height: 325px;
 	background-color: white;
-	text-align: center;
+	text-align: justify;
+	padding-top: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin: 0px;
+	content: 50pc;
+	font-size: 200%;
+	color: gray;
+	border: solid 1px red;
 }
 .flex-column {
 	height: 500px;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 
